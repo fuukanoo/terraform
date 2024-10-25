@@ -5,3 +5,9 @@
 azure-functions
 requests
 openai
+azure-storage-blob
+azure-ai-formrecognizer
+pandas
+python-docx
+openpyxl
+python-pptx
