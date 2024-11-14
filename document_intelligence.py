@@ -44,6 +44,7 @@ def extract_text_and_chunk_from_document(blob_url):
         logging.info(f"Length of splits:{len(splits)}") #Length of splits:34
 
         # [END analyze_documents_output_in_markdown]
+      
 
         #Azure OpenAIの埋め込みモデルを使用して、テキストの意味的なベクトル表現を生成
         aoai_embeddings = AzureOpenAIEmbeddings(
